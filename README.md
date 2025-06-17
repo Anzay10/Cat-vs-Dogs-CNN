@@ -84,26 +84,7 @@ High uncertainty values signal ambiguous images — useful for safety-critical o
 
 ```bash
 pip install tensorflow numpy matplotlib pillow scikit-learn
-# File & Image Utilities
-import os
-import zipfile
-import shutil
-import glob
 
-# TensorFlow & Keras
-import tensorflow as tf
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from tensorflow.keras.models import Sequential, Model
-from tensorflow.keras.layers import (
-    Conv2D, MaxPooling2D, Flatten, Dense, Dropout, BatchNormalization
-)
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.metrics import AUC, Precision, Recall
-import tensorflow.keras.backend as K
-
-# Plotting
-import matplotlib.pyplot as plt
 
 
 
